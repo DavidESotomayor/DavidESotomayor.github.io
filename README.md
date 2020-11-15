@@ -9,7 +9,7 @@ This repository houses my personal portfolio website.  In it, you should be able
 
 ### Preview
 
-Here is a small preview of my website...![David's Website](assets/images/img.png)
+Here is a small preview of my website...![David's Website](assets/images/screenShot.png)
 
 
 ### Appreciation
