@@ -7,5 +7,23 @@
 }
 
 .navbar-toggler {
-    border-color: #ffdab9
+    border-color: #ffdab9 !important;
+}
+
+body {
+    background-color: #d2d2d2;
+}
+
+.ds-container {
+    background-color: whitesmoke;
+    margin: 100px auto;
+}
+
+ds-container-width {
+    width: 50%;
+}
+
+h2 {
+    color: #797777;
+    padding: 10px 0px 0px;
 }
