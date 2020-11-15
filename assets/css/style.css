@@ -19,11 +19,11 @@ body {
     margin: 100px auto;
 }
 
-ds-container-width {
-    width: 50%;
-}
-
 h2 {
     color: #797777;
     padding: 10px 0px 0px;
+}
+
+p {
+    color: #797777;
 }
