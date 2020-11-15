@@ -24,6 +24,16 @@ h2 {
     padding: 10px 0px 0px;
 }
 
+.img-personal-photo {
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 p {
     color: #797777;
+}
+
+span {
+    color: #ffdab9;
 }
