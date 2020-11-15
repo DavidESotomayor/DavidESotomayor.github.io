@@ -1,3 +1,8 @@
+
+body {
+    background-color: #d2d2d2;
+}
+
 .navbar-colors {
     background-color:#797777;
 }
@@ -8,10 +13,6 @@
 
 .navbar-toggler {
     border-color: #ffdab9 !important;
-}
-
-body {
-    background-color: #d2d2d2;
 }
 
 .ds-container {
@@ -35,7 +36,7 @@ p {
 }
 
 .ul-styling {
-    margin: 5px, 10px, 5px, 10px;
+    margin: 5px, 10px;
 }
 
 span {
