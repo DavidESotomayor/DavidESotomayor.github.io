@@ -55,8 +55,9 @@ span {
     font-size: 20px;
     border-radius: 5px;
     padding: 2.5px 5px;
-    color: #ffdab9;
-    background: #797777
+    color: #ffdab9 !important;
+    background: #797777;
+    text-decoration: none !important;
 }
 
 .card-text {
