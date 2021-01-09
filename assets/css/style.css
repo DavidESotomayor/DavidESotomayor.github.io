@@ -64,3 +64,16 @@ span {
     text-align: center;
     font-size: 20px;
 }
+
+.repositorySection {
+    border-top: 1px solid #797777;
+    padding-top: 10px;
+}
+
+.repositoryIcon {
+    background: #797777;
+    color: #ffdab9;
+    text-decoration: none !important;
+    padding: 2.5px;
+    border-radius: 5px;
+}
