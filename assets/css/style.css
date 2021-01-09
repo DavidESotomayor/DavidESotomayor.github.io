@@ -42,3 +42,16 @@ p {
 span {
     color: #ffdab9;
 }
+
+.portfolioImgTextSpace {
+    text-align: center;
+}
+
+.portfolioImgText {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 2.5px 5px;
+    color: #ffdab9;
+    background: #797777
+}
+
