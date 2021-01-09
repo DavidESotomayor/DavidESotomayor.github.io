@@ -43,6 +43,10 @@ span {
     color: #ffdab9;
 }
 
+.cardImgStyles {
+    height: 175px;
+}
+
 .portfolioImgTextSpace {
     text-align: center;
 }
@@ -55,3 +59,7 @@ span {
     background: #797777
 }
 
+.card-text {
+    text-align: center;
+    font-size: 20px;
+}
