@@ -7,7 +7,7 @@ body {
     background-color:#797777;
 }
 
-.navbar-brand-colors {
+.navbar-brand-colors, .portfolioImgText {
     color: #ffdab9 !important;
 }
 
@@ -20,8 +20,11 @@ body {
     margin: 100px auto;
 }
 
-h2 {
+h2, p, .modal-title, #phoneNumber {
     color: #797777;
+}
+
+h2 {
     padding: 10px 0px 0px;
 }
 
@@ -31,15 +34,11 @@ h2 {
     margin-bottom: 10px;
 }
 
-p {
-    color: #797777;
-}
-
 .ul-styling {
     margin: 5px, 10px;
 }
 
-span {
+span, .repositoryIcon, .mobileIcon, .resumeIcon, .buttonStyle {
     color: #ffdab9;
 }
 
@@ -47,21 +46,24 @@ span {
     height: 175px;
 }
 
-.portfolioImgTextSpace {
+.portfolioImgTextSpace, #phoneNumber, .card-text {
     text-align: center;
 }
 
 .portfolioImgText {
-    font-size: 20px;
-    border-radius: 5px;
     padding: 2.5px 5px;
-    color: #ffdab9 !important;
+}
+
+.portfolioImgText, .repositoryIcon, .mobileIcon, .resumeIcon {
     background: #797777;
+    border-radius: 5px;
+}
+
+.portfolioImgText, .repositoryIcon {
     text-decoration: none !important;
 }
 
-.card-text {
-    text-align: center;
+.portfolioImgText, .card-text {
     font-size: 20px;
 }
 
@@ -71,24 +73,20 @@ span {
 }
 
 .repositoryIcon {
-    background: #797777;
-    color: #ffdab9;
-    text-decoration: none !important;
     padding: 2.5px;
-    border-radius: 5px;
 }
 
 .contactSideBar {
-    display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+}
+
+.phoneSection, .resumeSection, .contactSideBar {
+    display: flex;
     align-items: center;
 }
 
 .mobileIcon, .resumeIcon {
-    background: #797777;
-    color: #ffdab9;
-    border-radius: 5px;
     margin-left: 15px;
 }
 
@@ -104,23 +102,38 @@ span {
     justify-content: center;
 }
 
-.modal-title {
-    color: #797777;
-}
-
-#phoneNumber {
-    text-align: center;
-    color: #797777;
-}
-
 .buttonStyle {
     background: #797777;
     border-color: #5a5757;
-    color: #ffdab9;
 }
 
 .buttonStyle:hover {
     background: #5a5757;
     border-color: #5a5757;
     color: #ffdab9;
+}
+
+.footerIcons {
+    margin: 0px 10px
+}
+
+@media screen and (max-width: 992px) {
+    .contactSideBar {
+        flex-direction: row;
+    }
+    
+    form {
+        margin-bottom: 10px;
+        border-bottom: 1px solid #797777;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .psh, .rsh {
+        font-size: 16px;
+    }
+
+    .mobileIcon, .resumeIcon {
+        margin: 2.5px
+    }
 }
