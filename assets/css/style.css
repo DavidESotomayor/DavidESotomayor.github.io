@@ -77,3 +77,50 @@ span {
     padding: 2.5px;
     border-radius: 5px;
 }
+
+.contactSideBar {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobileIcon, .resumeIcon {
+    background: #797777;
+    color: #ffdab9;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.mobileIcon {
+    padding: 10px
+}
+
+.resumeIcon {
+    padding: 15px
+}
+
+.modal-header {
+    justify-content: center;
+}
+
+.modal-title {
+    color: #797777;
+}
+
+#phoneNumber {
+    text-align: center;
+    color: #797777;
+}
+
+.buttonStyle {
+    background: #797777;
+    border-color: #5a5757;
+    color: #ffdab9;
+}
+
+.buttonStyle:hover {
+    background: #5a5757;
+    border-color: #5a5757;
+    color: #ffdab9;
+}
